@@ -7,11 +7,13 @@ import java.util.List;
 public class LeetCode1389 {
     public static void main(String[] args) {
         int[] nums = {0, 1, 2, 3, 4}, index = {0, 1, 2, 2, 1};
-        System.out.println(Arrays.toString(createTargetArray(nums, index)));
-        System.out.println(Arrays.toString(createTargetArray2(nums, index)));
+        LeetCode1389 obj1389 = new LeetCode1389();
+        System.out.println(Arrays.toString(obj1389.createTargetArray(nums, index)));
+        System.out.println(Arrays.toString(obj1389.createTargetArray2(nums, index)));
     }
-// ArrayList add method shifts values to right indices
-    private static int[] createTargetArray2(int[] nums, int[] index) {
+
+    // ArrayList add method shifts values to right indices
+    private int[] createTargetArray2(int[] nums, int[] index) {
         List list = new ArrayList();
         for (int i = 0; i < nums.length; i++) {
             list.add(index[i], nums[i]);
@@ -24,7 +26,7 @@ public class LeetCode1389 {
     }
 
 
-    private static int[] createTargetArray(int[] nums, int[] index) {
+    private int[] createTargetArray(int[] nums, int[] index) {
         int[] target = new int[nums.length];
 
         for (int i = 0; i < index.length; i++) {

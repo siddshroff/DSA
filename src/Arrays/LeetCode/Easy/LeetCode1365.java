@@ -7,13 +7,15 @@ import java.util.Map;
 public class LeetCode1365 {
     public static void main(String[] args) {
         int[] nums = {8, 1, 2, 2, 3};
-        System.out.println(Arrays.toString(smallerNumbersThanCurrent(nums)));
-        System.out.println(Arrays.toString(smallerNumbersThanCurrentOptimised(nums)));
-        System.out.println(Arrays.toString(smallerNumbersThanCurrentOptimisedHard(nums)));
-        System.out.println(Arrays.toString(smallerNumbersThanCurrentOptimisedMap(nums)));
+        LeetCode1365 obj1365 = new LeetCode1365();
+        System.out.println(Arrays.toString(obj1365.smallerNumbersThanCurrent(nums)));
+        System.out.println(Arrays.toString(obj1365.smallerNumbersThanCurrentOptimised(nums)));
+        System.out.println(Arrays.toString(obj1365.smallerNumbersThanCurrentOptimisedHard(nums)));
+        System.out.println(Arrays.toString(obj1365.smallerNumbersThanCurrentOptimisedMap(nums)));
     }
+
     //Usage of datastructure solves half problem - putIfAbsent
-    private static int[] smallerNumbersThanCurrentOptimisedMap(int[] nums) {
+    private int[] smallerNumbersThanCurrentOptimisedMap(int[] nums) {
         Map<Integer, Integer> mp = new HashMap<>();
         int n = nums.length;
         int duplicate[] = new int[n];
@@ -32,7 +34,7 @@ public class LeetCode1365 {
         return result;
     }
 
-    private static int[] smallerNumbersThanCurrentOptimisedHard(int[] nums) {
+    private int[] smallerNumbersThanCurrentOptimisedHard(int[] nums) {
         int[] freq = new int[101];
         for (int i : nums) {
             freq[i]++;
@@ -54,7 +56,7 @@ public class LeetCode1365 {
     }
 
     //Solution1: Runtime: 4ms(89.19%), Memory: 43.8MB(82.2%)
-    private static int[] smallerNumbersThanCurrentOptimised(int[] nums) {
+    private int[] smallerNumbersThanCurrentOptimised(int[] nums) {
         int[] count = new int[101];
         int[] res = new int[nums.length];
 
@@ -75,7 +77,7 @@ public class LeetCode1365 {
     }
 
     //Solution1: Runtime: 27ms(10.35%), Memory: 45MB(18.15%)
-    private static int[] smallerNumbersThanCurrent(int[] nums) {
+    private int[] smallerNumbersThanCurrent(int[] nums) {
         int[] resultant = new int[nums.length];
         for (int i = 0; i < nums.length; i++) {
             int counter = 0;

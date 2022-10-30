@@ -15,7 +15,7 @@
 10. [Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/)1832
 11. [Count Items Matching a Rule](https://leetcode.com/problems/count-items-matching-a-rule/)1773
 12. [Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/)1732
-13. [Flipping an Image](https://leetcode.com/problems/flipping-an-image/)
+13. [Flipping an Image](https://leetcode.com/problems/flipping-an-image/)832
 14. [Cells with Odd Values in a Matrix](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/)
 15. [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/)
 16. [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/)
@@ -37,10 +37,10 @@
 2. [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)
 3. [Spiral Matrix III](https://leetcode.com/problems/spiral-matrix-iii/)
 4. [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
-5. [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
-6. [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
-7. [Jump Game](https://leetcode.com/problems/jump-game/)
-8. [Rotate Array](https://leetcode.com/problems/rotate-array/)
+5. [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)238
+6. [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)34
+7. [Jump Game](https://leetcode.com/problems/jump-game/)55 DP
+8. [Rotate Array](https://leetcode.com/problems/rotate-array/) 189
 9. [Sort Colors](https://leetcode.com/problems/sort-colors/)
 10. [House Robber](https://leetcode.com/problems/house-robber/)
 
