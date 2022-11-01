@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.OptionalInt;
 import java.util.stream.Collectors;
-
+// number of for loops does not ount as O(2n)=O(n)
 public class LeetCode1431 {
     public static void main(String[] args) {
         int[] candies = {2, 3, 5, 1, 3};
