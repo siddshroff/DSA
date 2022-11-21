@@ -28,11 +28,11 @@
 - [Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)
 - [Roman to Integer](https://leetcode.com/problems/roman-to-integer/)
 - [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
-- [Length of last word](https://leetcode.com/problems/length-of-last-word/)
+- [Length of last word](https://leetcode.com/problems/length-of-last-word/)58
 
 ## Medium
 
-- [Jump Game VII](https://leetcode.com/problems/jump-game-vii/)
+- [Jump Game VII](https://leetcode.com/problems/jump-game-vii/)1871
 - [Split Two Strings to Make Palindrome](https://leetcode.com/problems/split-two-strings-to-make-palindrome/)
 - [Number of Ways to Split a String](https://leetcode.com/problems/number-of-ways-to-split-a-string/)
 - [Sentence Similarity III](https://leetcode.com/problems/sentence-similarity-iii/)
