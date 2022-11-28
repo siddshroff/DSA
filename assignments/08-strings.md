@@ -17,17 +17,17 @@
 - [Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/)657
 - [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)557
 - [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/)168
-- [Implement strStr()](https://leetcode.com/problems/implement-strstr/)
+- [Implement strStr()](https://leetcode.com/problems/implement-strstr/)28
 - [Long Pressed Name](https://leetcode.com/problems/long-pressed-name/)
-- [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
-- [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)
-- [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)
-- [Maximum Repeating Substring](https://leetcode.com/problems/maximum-repeating-substring/)
-- [Check if Binary String Has at Most One Segment of Ones](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/)
+- [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)125
+- [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)680
+- [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)14
+- [Maximum Repeating Substring](https://leetcode.com/problems/maximum-repeating-substring/)1668
+- [Check if Binary String Has at Most One Segment of Ones](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/)1784
 - [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)
 - [Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)
-- [Roman to Integer](https://leetcode.com/problems/roman-to-integer/)
-- [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
+- [Roman to Integer](https://leetcode.com/problems/roman-to-integer/)13
+- [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)20
 - [Length of last word](https://leetcode.com/problems/length-of-last-word/)58
 
 ## Medium
