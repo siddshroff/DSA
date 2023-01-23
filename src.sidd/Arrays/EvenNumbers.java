@@ -2,18 +2,29 @@ package Arrays;
 
 public class EvenNumbers {
     public static void main(String[] args) {
-int[] arr ={555,901,482,1771};
-EvenNumbers obj = new EvenNumbers();
-    int number = obj.findNumbers(arr);
+        int[] arr = {555, 901, 482, 1771};
+        EvenNumbers obj = new EvenNumbers();
+        int number = obj.findNumbers(arr);
+        int number1 = obj.findNumbersBits(arr);
     }
+
+    private int findNumbersBits(int[] arr) {
+        int counter = 0;
+        for (int num : arr) {
+            if ((((int) (Math.log(num) / Math.log(10)) + 1) & 1) != 1)
+                counter++;
+        }
+        return counter;
+    }
+
     public int findNumbers(int[] nums) {
         //Input: nums = [555,901,482,1771]
         //Output: 1
         //Explanation:
         //Only 1771 contains an even number of digits.
         int evenNumberCount = 0;
-        for(int i=0;i<nums.length;i++){
-            if(even(nums[i])){
+        for (int i = 0; i < nums.length; i++) {
+            if (even(nums[i])) {
                 evenNumberCount++;
             }
         }
@@ -21,17 +32,17 @@ EvenNumbers obj = new EvenNumbers();
     }
 
     private boolean even(int num) {
-        int count=0;
-        if(num<0){
-            num*=-1;
+        int count = 0;
+        if (num < 0) {
+            num *= -1;
         }
-        if(num==0){
+        if (num == 0) {
             return false;
         }
         while (num > 0) {
             count++;
-            num/=10;
+            num /= 10;
         }
-        return (count%2==0)?true:false;
+        return (count % 2 == 0) ? true : false;
     }
 }
