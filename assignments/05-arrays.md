@@ -19,13 +19,13 @@
 14. [Cells with Odd Values in a Matrix](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/)
 15. [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/)
 16. [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/)1295
-17. [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)
+17. [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/) 867
 18. [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/)989
 19. [Maximum Population Year](https://leetcode.com/problems/maximum-population-year/)1854
 20. [Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/)
-21. [Two Sum](https://leetcode.com/problems/two-sum/)
-22. [Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/)
-23. [Lucky Number In a Matrix](https://leetcode.com/problems/lucky-numbers-in-a-matrix/)
+21. [Two Sum](https://leetcode.com/problems/two-sum/) 1
+22. [Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/) 1304
+23. [Lucky Number In a Matrix](https://leetcode.com/problems/lucky-numbers-in-a-matrix/) 1380
 24. [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 25. [Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/)
 26. [Plus One](https://leetcode.com/problems/plus-one/)
